@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<div class="vh-100 row m-0 text-center align-items-center justify-content-center">
+    <div class="col-auto">
+        <form method="post">
+            <p class="h2">Usuario</p>
+            <input type="text" required name="user" id="txtUser" /><br />
+
+            <p class="h2">Contraseña</p>
+            <input type="password" required name="pass" id="txtPass" /><br />
+
+            <button class="btn btn-success mt-5" type="submit">Iniciar sesión</button>
+
+        </form>
+    </div>
+</div>
+
+<script>
+    function toast() {
+        const toastLiveError = document.getElementById('errorToast')
+        const toast = new bootstrap.Toast(toastLiveError)
+        document.getElementById('textError').innerText = 'Usuario y/o Contraseña incorrectas'
+        toast.show()
+    }
+</script>

@@ -1,0 +1,26 @@
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\bin\Debug\_3.BusinessLogic.dll
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\bin\Debug\_3.BusinessLogic.pdb
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\bin\Debug\_1.Entities.dll
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\bin\Debug\_2.DataAcces.dll
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\bin\Debug\_1.Entities.pdb
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\bin\Debug\_2.DataAcces.pdb
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\obj\Debug\3. BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\obj\Debug\3. BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\obj\Debug\3. BusinessLogic.csproj.CopyComplete
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\obj\Debug\_3.BusinessLogic.dll
+C:\Users\DESARROLLADOR\source\repos\Evaluacion\3. BusinessLogic\obj\Debug\_3.BusinessLogic.pdb
+D:\Evaluacion\3. BusinessLogic\bin\Debug\_3.BusinessLogic.dll
+D:\Evaluacion\3. BusinessLogic\bin\Debug\_3.BusinessLogic.pdb
+D:\Evaluacion\3. BusinessLogic\bin\Debug\Newtonsoft.Json.dll
+D:\Evaluacion\3. BusinessLogic\bin\Debug\_1.Entities.dll
+D:\Evaluacion\3. BusinessLogic\bin\Debug\_2.DataAcces.dll
+D:\Evaluacion\3. BusinessLogic\bin\Debug\_1.Entities.pdb
+D:\Evaluacion\3. BusinessLogic\bin\Debug\_2.DataAcces.pdb
+D:\Evaluacion\3. BusinessLogic\bin\Debug\Newtonsoft.Json.xml
+D:\Evaluacion\3. BusinessLogic\obj\Debug\3. BusinessLogic.csproj.AssemblyReference.cache
+D:\Evaluacion\3. BusinessLogic\obj\Debug\3. BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Evaluacion\3. BusinessLogic\obj\Debug\3. BusinessLogic.csproj.CopyComplete
+D:\Evaluacion\3. BusinessLogic\obj\Debug\_3.BusinessLogic.dll
+D:\Evaluacion\3. BusinessLogic\obj\Debug\_3.BusinessLogic.pdb

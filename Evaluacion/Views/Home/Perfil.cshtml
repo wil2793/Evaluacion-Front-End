@@ -1,0 +1,46 @@
+﻿@model _1.Entities.eUsuario
+@{
+    ViewBag.Title = "Perfil";
+}
+
+
+<style>
+    nav {
+        display: flex !important;
+    }
+</style>
+
+<div class="vh-90 row m-0 text-center align-items-center justify-content-center">
+    <div class="col-auto">
+        <form method="post">
+            <input id="userId" type="hidden" name="userId" value="@Model.IdUser" />
+
+            <p class="h2">Usuario</p>
+            <input type="text" required name="user" id="txtUser" value="@Model.UserName" disabled/><br />
+
+            <p class="h2">Contraseña</p>
+            <input type="text" required name="pass" id="txtPass" value="@Model.Contrasena" disabled/><br />
+
+            <p class="h2">Primer Nombre</p>
+            <input type="text" required name="pNombre" id="txtPNombre" value="@Model.Nombre" disabled/><br />
+
+            <p class="h2">Segundo Nombre</p>
+            <input type="text" name="sNombre" id="txtSNombre" value="@Model.SegNombre" disabled/><br />
+
+            <p class="h2">Apellido Paterno</p>
+            <input type="text" required name="APat" id="txtAPat" value="@Model.ApellidoPat" disabled/><br />
+
+            <p class="h2">Apellido Materno</p>
+            <input type="text" name="AMat" id="txtAMat" value="@Model.ApellidoMat" disabled/><br />
+
+            <button id="btnEditar" type="button" class="btn btn-warning mt-4" onclick="habilitarCampos('Editar')">Editar</button>
+
+            <button id="btnNuevo" type="button" class="btn btn-primary mt-4" onclick="habilitarCampos('Nuevo')">Nuevo</button>
+
+            <button id="btnCancelar" type="button" class="btn btn-danger mt-4 d-none" onclick="habilitarCampos('Cancelar')">Cancelar</button>
+
+            <button id="btnGuardar" class="btn btn-success mt-4 d-none" type="submit">Guardar</button>
+
+        </form>
+    </div>
+</div>

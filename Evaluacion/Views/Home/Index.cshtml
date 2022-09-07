@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    string NombreUsuario = ViewBag.Nombre;
+}
+
+
+<style>
+    nav {
+        display: flex !important;
+    }
+</style>
+
+<div class="container">
+    <div class="row text-center mt-5">
+        <div class="col-xl-12">
+            <span class="h1">Bienvenido</span>
+        </div>
+        <div class="col-xl-12">
+            <span class="h3">@NombreUsuario</span>
+        </div>
+    </div>
+</div>

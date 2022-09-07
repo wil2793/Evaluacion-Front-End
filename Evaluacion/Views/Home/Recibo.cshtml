@@ -1,0 +1,39 @@
+﻿@model _1.Entities.eRecibo
+@using _3.BusinessLogic;
+@{
+    ViewBag.Title = "Recibo";
+    bool lNuevo = ViewBag.lNuevo;
+}
+<style>
+    nav {
+        display: flex !important;
+    }
+</style>
+<input id="lNuevo" type="hidden" name="name" value="@lNuevo" />
+<div class="vh-90 row m-0 text-center align-items-center justify-content-center">
+    <div class="col-auto">
+        <form method="post">
+            <input type="hidden" name="reciboId" value="@Model.IdRecibo" />
+
+            <p class="h2">Proveedor</p>
+            <input type="text" required name="proveedor" id="txtProveedor" value="@Model.Proveedor" /><br />
+
+            <p class="h2">Monto</p>
+            <input type="number" required name="monto" id="txtMonto" value="@Model.Monto" /><br />
+
+            <p class="h2">Moneda</p>
+            <input type="text" required name="moneda" id="txtMoneda" value="@Model.Moneda" /><br />
+
+            <p class="h2">Fecha</p>
+            <input type="date" required name="fecha" id="txtFecha" value="@Model.Fecha.ToString("yyyy-MM-dd")" /><br />
+
+            <p class="h2">Comentarios</p>
+            <input type="text" required name="comentario" id="txtcomentario" value="@Model.Comentario" /><br />
+
+            <button id="btnCancelar" type="button" class="btn btn-danger mt-4" onclick="habilitarCamposRecibo('Cancelar')">Cancelar</button>
+
+            <button id="btnGuardar" class="btn btn-success mt-4" type="submit">Guardar</button>
+
+        </form>
+    </div>
+</div>

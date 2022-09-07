@@ -1,0 +1,41 @@
+﻿@model List<_1.Entities.eRecibo>
+@{
+    ViewBag.Title = "Recibos";
+}
+<style>
+    nav {
+        display: flex !important;
+    }
+</style>
+
+<div id="recibosContainer" class="container">
+    <a href="/Home/Recibo" id="btnNuevo" ><input  type="button" class="btn btn-primary mt-4" value="Nuevo" /></a>
+
+    <table class="row text-center">
+        <tbody class="col-12 p-0 m-0">
+            <tr class="row">
+                <td class="col-2 p-0 m-0">Proveedor</td>
+                <td class="col-2 p-0 m-0">Monto</td>
+                <td class="col-2 p-0 m-0">Moneda</td>
+                <td class="col-2 p-0 m-0">Fecha</td>
+                <td class="col-2 p-0 m-0">Comentario</td>
+                <td class="col-2 p-0 m-0"></td>
+            </tr>
+            @foreach (_1.Entities.eRecibo item in Model)
+            {
+                <tr class="row">
+                    <td id="@item.IdRecibo" class="col-2 p-0 m-0">@item.Proveedor</td>
+                    <td id="@item.IdRecibo" class="col-2 p-0 m-0">@item.Monto.ToString("C")</td>
+                    <td id="@item.IdRecibo" class="col-2 p-0 m-0">@item.Moneda</td>
+                    <td id="@item.IdRecibo" class="col-2 p-0 m-0">@item.Fecha.ToShortDateString()</td>
+                    <td id="@item.IdRecibo" class="col-2 p-0 m-0">@item.Comentario</td>
+                    <td class="col-2 p-0 m-0">
+                        <a href="/Home/Recibo?reciboId=@item.IdRecibo" id="btnEditar"><input type="button" class="btn btn-warning" value="Editar" /></a>
+
+                        <a href="/Home/EliminarRecibo?reciboId=@item.IdRecibo" id="btnEditar"><input type="button" class="btn btn-danger" value="Eliminar" /></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
